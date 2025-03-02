@@ -10,14 +10,14 @@ Para começar, foi criado um agente com instruções para utilizar o Microsoft L
 
 ### Criação do tópico
 
-Em seguida foi criado um tópico para gerar respostas de mensagens relacionadas à AI Builder.
+Em seguida, foi criado um tópico para gerar respostas de mensagens relacionadas ao AI Builder.
 
-Foram utilizadas as seguintes frases para acionar o gatilho:
+**Foram utilizadas as seguintes frases para acionar o gatilho:**
  - Buscar informações de AI Builder
  - O que é IA Builder
  - Onde encontro informações da ferramenta de AI da Power Platform
 
-Com isso, caso o usuário faça alguma pergunta relacionada à AI Builder, esse tópico será ativado.
+Com isso, caso o usuário faça alguma pergunta relacionada ao AI Builder, esse tópico será ativado.
 
 ### Alterações do tópico Conversation boosting
 
@@ -25,6 +25,8 @@ Para finalizar, foi feito alterações no tópico padrão do sistema, o Conversa
 
 Foi adicionado uma mensagem para caso esse tópico seja ativado, enviando uma mensagem com informações de contato ao usuário para que o problema possa ser resolvido.
 
-Também foi alterado algumas configurações:
- - Desativação da opção da IA utilizar os próprios conhecimentos gerais, para que o agente utilize apenas o conteúdo da documentação do Microsoft Learn
- - Configuração do nível de moderação de conteúdo para alto
+**Também foram alteradas algumas configurações:**
+ - Desativação da opção da IA utilizar os próprios conhecimentos gerais, garantindo que o agente utilize apenas o conteúdo da documentação do Microsoft Learn
+ - Configuração do nível de moderação de conteúdo para alto, garantindo que o agente elabore respostas mais alinhadas à documentação.
+
+Esse foi um resumo sobre como criar e configurar tópicos.
